@@ -1,7 +1,7 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const mongoose = require('mongoose');
-const schema = require('./schema/schema');
+const schema = require('./server/schema/schema');
 
 const app = express();
 
@@ -22,5 +22,9 @@ mongoose
   .then(() => {
     console.log('Connected to database');
   })
-  .then(() => {})
+  .then(() => {
+    app.listen(5000, () => {
+      console.log('server is running on port 5000');
+    });
+  })
   .catch(err => console.log(err));
