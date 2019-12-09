@@ -7,3 +7,8 @@
 
 GraphQL, Apollo, React, NodeJS, MongoDB
 ESLint, Prettier with Airbnb JS Styles
+
+# Run app
+
+1. yarn
+2. yarn start
