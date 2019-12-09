@@ -1,3 +1,6 @@
+# Live demo
+https://iamhaobui.github.io/graphql-playlist/
+
 # An application shows a reading playlist
 
 - Add new book with author, genre
