@@ -1,1 +1,1 @@
-export { getAuthorsQuery, getBooksQuery, addBookMutation } from './queries';
+export { getAuthorsQuery, getBooksQuery, addBookMutation, getBookDetail } from './queries';
