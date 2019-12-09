@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/graphql-playlist/static/css/main.d2040fb7.chunk.css",
-    "main.js": "/graphql-playlist/static/js/main.f86b45b4.chunk.js",
-    "main.js.map": "/graphql-playlist/static/js/main.f86b45b4.chunk.js.map",
+    "main.js": "/graphql-playlist/static/js/main.9dbcfc59.chunk.js",
+    "main.js.map": "/graphql-playlist/static/js/main.9dbcfc59.chunk.js.map",
     "runtime-main.js": "/graphql-playlist/static/js/runtime-main.8a105288.js",
     "runtime-main.js.map": "/graphql-playlist/static/js/runtime-main.8a105288.js.map",
-    "static/js/2.0cb0adc7.chunk.js": "/graphql-playlist/static/js/2.0cb0adc7.chunk.js",
-    "static/js/2.0cb0adc7.chunk.js.map": "/graphql-playlist/static/js/2.0cb0adc7.chunk.js.map",
+    "static/js/2.7eb212b5.chunk.js": "/graphql-playlist/static/js/2.7eb212b5.chunk.js",
+    "static/js/2.7eb212b5.chunk.js.map": "/graphql-playlist/static/js/2.7eb212b5.chunk.js.map",
     "index.html": "/graphql-playlist/index.html",
-    "precache-manifest.4471c90a263ebc4925d9eaab96f1d8f5.js": "/graphql-playlist/precache-manifest.4471c90a263ebc4925d9eaab96f1d8f5.js",
+    "precache-manifest.c44c26af436c719f8aead1a097ed2ef4.js": "/graphql-playlist/precache-manifest.c44c26af436c719f8aead1a097ed2ef4.js",
     "service-worker.js": "/graphql-playlist/service-worker.js",
     "static/css/main.d2040fb7.chunk.css.map": "/graphql-playlist/static/css/main.d2040fb7.chunk.css.map",
-    "static/js/2.0cb0adc7.chunk.js.LICENSE": "/graphql-playlist/static/js/2.0cb0adc7.chunk.js.LICENSE"
+    "static/js/2.7eb212b5.chunk.js.LICENSE": "/graphql-playlist/static/js/2.7eb212b5.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.8a105288.js",
-    "static/js/2.0cb0adc7.chunk.js",
+    "static/js/2.7eb212b5.chunk.js",
     "static/css/main.d2040fb7.chunk.css",
-    "static/js/main.f86b45b4.chunk.js"
+    "static/js/main.9dbcfc59.chunk.js"
   ]
 }
