@@ -1,6 +1,3 @@
-# Live demo
-https://iamhaobui.github.io/graphql-playlist/
-
 # An application shows a reading playlist
 
 - Add new book with author, genre
@@ -15,3 +12,4 @@ https://iamhaobui.github.io/graphql-playlist/
 
 1. yarn
 2. yarn start
+3. yarn run server
