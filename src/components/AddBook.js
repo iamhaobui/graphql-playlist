@@ -36,14 +36,18 @@ class AddBook extends Component {
   submitForm = e => {
     e.preventDefault();
     const { name, genre, authorId } = this.state;
-    this.props.addBookMutation({
-      variables: {
-        name,
-        genre,
-        authorId,
-      },
-      refetchQueries: [{ query: getBooksQuery }],
-    });
+    if (!authorId) {
+      alert('You must choose an author');
+    } else {
+      this.props.addBookMutation({
+        variables: {
+          name,
+          genre,
+          authorId,
+        },
+        refetchQueries: [{ query: getBooksQuery }],
+      });
+    }
   };
 
   render() {

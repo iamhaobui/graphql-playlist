@@ -1,1 +1,8 @@
-export { getAuthorsQuery, getBooksQuery, addBookMutation, getBookDetail } from './queries';
+export {
+  getAuthorsQuery,
+  getBooksQuery,
+  addBookMutation,
+  getBookDetail,
+  editBook,
+  deleteBook,
+} from './queries';
