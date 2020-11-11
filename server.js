@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const path = require('path');
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const mongoose = require('mongoose');
@@ -18,6 +19,11 @@ app.use(
   }),
 );
 
+app.use(express.static('public'));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+});
 // connect to mlab
 mongoose
   .connect(`${process.env.REACT_APP_MONGOURI}`, { useUnifiedTopology: true, useNewUrlParser: true })
